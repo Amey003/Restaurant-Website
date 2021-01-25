@@ -1,0 +1,401 @@
+html{
+    box-sizing: border-box;
+   
+}
+
+* {
+    
+    margin:0px;
+    padding: 0px;
+
+}
+
+body{
+    
+    width: 100%;
+    font-family: cursive;
+   
+}
+
+@media (max-width: 600px) {
+    .main{
+        width: 100%;
+    }    
+}
+
+@media (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }    
+}
+
+.main{
+    
+    height: 40%;
+    width: 100%;
+
+}
+
+.nav{
+    background-color:skyblue;
+    height: 76px;
+    line-height: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Ariel,Tahoma, sans-serif;
+    opacity:0.7;
+    width: 100%;
+    position: relative;
+}
+
+.nav h1{
+    font-weight: 500;
+    float: left;
+    
+}
+
+.nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 8px 16px;
+    
+}
+
+.nav ul li:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.40s;
+}
+
+.nav ul li a{
+   color:white;
+    text-decoration-line: none;
+}
+.welcome{
+    
+   float: left;
+    padding-top: 2%;
+    width: 95%;
+    margin-left:3%;
+     background-image: url("b.jpg");
+   background-size: cover;
+   
+}
+
+.welcome-text{
+    
+   
+   text-align: center;
+   color:black;
+  font-family: cursive;
+   padding: 20%;
+    opacity:0.8;
+    font-size: 40px;
+}
+.welcome-button{
+    float: left;
+    width:60%;
+    background-color: orange;
+    opacity:0.8;
+    color: purple;
+     padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+      text-align: center;
+      font-size: 30px;
+      text-decoration-line: none;
+     border-style: groove;
+     border-color: red;
+     text-shadow: 0px 0px 2px black,0px 0px 4px yellow;
+     box-shadow: 5px 5px 2px blue;
+
+    
+}
+    .welcome-button:hover{
+        background-color:greenyellow;
+        color:black;
+        text-decoration-line: none;
+        border-style: groove;
+     border-color: green;
+
+    }
+.region{
+   
+    height: 550px; 
+   float: left;
+  width:94%;
+   background-image: url("a.jpg");
+   background-size: cover;
+    color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: xx-large;
+   margin-top:10%;
+    font-size: 30px;
+   padding: 30px;
+   margin-left: 3%;
+  
+   
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 100px;
+    font-size: 16px;
+    border: red;
+    cursor: pointer;
+     margin-left: 450px;
+     padding-right: 100px;
+     opacity: 0.7;
+     border-style: dashed;
+    border-width: 3px;
+    border-color: green;
+    margin-top: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+     margin-left: 450px;
+    padding: 10px 90px;
+     opacity: 0.7;
+     border-style: dashed;
+    border-width: 3px;
+    border-color: green;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    opacity: 0.7;
+}
+
+
+.dropdown-content a:hover {
+    background-color: cyan;
+    opacity: 0.7;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: green;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 0.7;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: orangered;
+    opacity: 0.7;
+    
+}
+.s-reg{
+    text-align: center;
+    text-decoration-line: none;
+    background-color: greenyellow;
+    color:green;
+    margin-left: 300px;
+    opacity: 0.7;
+    padding: 10px 200px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: green;
+   
+}
+.s-reg:hover{
+    text-decoration-line: none;
+    color: green;
+    opacity: 0.7;
+    padding: 10px 200px;
+}
+.u{
+    width: 600px;
+    height: 600px;
+}
+.slider{
+   overflow: hidden;
+   margin-top: 15px;
+    width: 100%;
+    
+    
+}
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+.slider figure img{
+    float: left;
+    width: 100%;
+}
+.slider figure{
+    position:relative;
+    width:500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite;
+}
+@keyframes slidy{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    72%{
+        left: -200%;
+    }
+    82%{
+        left: -200%;
+    }
+    84%{
+        left: -100%;
+    }
+    94%{
+        left: -100%;
+    }
+    96%{
+        left: 0;
+    }
+
+}
+.footer{
+    margin-top:90%;
+}
+.type{
+    margin-top: 50%;
+    height: 60px;
+    width:95%;
+}
+.type1{
+    margin-top: 7%;
+    height: 60px;
+    width:95%;
+}
+.typeh{
+    padding-left: 40%;
+}
+.typeh1{
+    padding-left: 40%;
+}
+.slider1{
+   overflow: hidden;
+   margin-top: 10px;
+    width: 100%;
+   
+     
+
+}
+.slider1 figure div{
+    float: left;
+    width: 20%;
+}
+.slider1 figure img{
+    float: left;
+    width: 100%;
+}
+.slider1 figure{
+    position:relative;
+    width:500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slidy infinite;
+}
+.co1{
+     height: 260px;
+    margin-top: 60px;
+     margin-left: 20px;
+    float: left;
+    position: relative;
+    width: 31%;
+    background-color: gold;
+    box-shadow: 5px 5px 2px blueviolet;
+}
+.co2{
+    height: 260px;
+    margin-top: 60px;
+     margin-left: 20px;
+    float: left;
+    position: relative;
+    width: 31%;
+    background-color: gold;
+    box-shadow: 5px 5px 2px blueviolet;
+}
+.co3{
+     height: 260px;
+    margin-top: 60px;
+     margin-left: 20px;
+    float: left;
+    position: relative;
+    width: 31%;
+    background-color: gold;
+    box-shadow: 5px 5px 2px blueviolet;
+}
+.ro{
+    height: 400px;
+    float: left;
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+.w{
+    font-family: cursive;
+    font-size: 30px;
+    margin: 100px;
+}
+.l{
+    font-family: cursive;
+    font-size: 30px;
+  position: relative;
+  margin-left: 35%;
+
+}

@@ -1,0 +1,173 @@
+html{
+    box-sizing: border-box;
+   
+}
+
+* {
+    
+    margin:0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: greenyellow;
+    width: 100%;
+   
+}
+
+@media (max-width: 600px) {
+    .main{
+        width: 100%;
+    }    
+}
+
+@media (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }    
+}
+
+.main{
+    
+    height: 40%;
+    width: 100%;
+
+}
+
+.nav{
+    background-color: blueviolet;
+    height: 76px;
+    line-height: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Ariel,Tahoma, sans-serif;
+    opacity:0.7;
+    width: 100%;
+    position: relative;
+}
+
+.nav h1{
+    font-weight: 500;
+    float: left;
+    
+}
+
+.nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 8px 16px;
+}
+
+.nav ul li:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.40s;
+}
+
+.nav ul li a{
+   color:white;
+    text-decoration-line: none;
+}
+.l1{
+    width: 80%;
+    background-color: aquamarine;
+    height: 10%;
+margin-top: 4%;
+margin-left: 20px;
+
+}
+.c1{
+    width: 35%;
+    background-color: gold;
+     box-shadow: 5px 5px 2px blueviolet;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+    .c2{
+    width: 35%;
+    background-color: gold;
+     box-shadow: 5px 5px 2px blueviolet;
+     margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.q1{
+    margin-top: 100px;
+    width: 80%;
+    margin-left: 20px;
+
+
+}
+}
+    .{
+    width: 35%;
+    background-color: gold;
+     box-shadow: 5px 5px 2px blueviolet;
+     margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.full-row::after, .row::after, .container::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.row1{
+    
+    background-color:gold;
+    width: 95%;
+    margin-top: 34px;
+    height: 20%;
+    margin-left: 25px;
+
+
+}
+.text{
+
+    width:100%;
+    padding:0 8px;
+}
+.contact-button1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding:8px 8px;
+     box-shadow: -8px -11px 20px 3px rgba(0,0,0,0.2);
+    
+}
+    
+.contact-button1:hover{
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+}  
+.form-class{
+    padding: 0 16px;
+} 
+@media (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
+        
+       
+}
+.t{
+    box-shadow: 5px 5px 2px blueviolet;
+    background-color:gold;
+    width: 95%;
+    height: 60px;
+    margin-left: 20px;
+}
+.f{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50%;
+}

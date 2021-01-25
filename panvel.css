@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+
+}
+
+body{
+    margin:0px;
+    width: 100%;
+     background: url("back.jp") no-repeat;
+    background-size: cover;
+   
+}
+ 
+@media (max-width: 600px) {
+    .main{
+        width: 100%;
+    }    
+}
+
+@media (max-width: 600px) {
+    .nav{
+        width: 100%;
+    }    
+}
+
+.main{
+   
+    width: 100%;
+
+}
+
+.nav{
+    background-color:blueviolet;
+    height: 76px;
+    line-height: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Ariel,Tahoma, sans-serif;
+   box-shadow: 9px 12px 20px 2px  rgba(0,0,0,0.2);
+    width: 100%;
+    
+}
+
+.nav h1{
+    font-weight: 500;
+    float: left;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 8px 16px;
+}
+.nav ul li:hover{
+    background-color: orange;
+    color: black;
+    transition: all 0.40s;
+}
+
+.nav ul li a{
+   color:white;
+    text-decoration-line: none;
+}
+.region{
+    padding-left: 600px;
+    padding-top: 40px; 
+    background-color: gold; 
+     
+}
+.region-name{
+ color: black;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 12px;
+
+}
+.res{
+    margin-left: 20px;
+    margin-top:40px;
+}
+
+.card{   
+    background-color:gold;
+    width:97%;
+    box-shadow: 5px 5px 2px blue;
+}
+.colmn{
+      width: 25%;
+
+}
+.button{
+     padding:50px 50px;
+    margin-top: 50px;
+     margin-left: 90px;
+}
+    .info{
+    margin-top: 50px;
+    }
+.resimg{
+    margin-top:10px;
+    margin-bottom: 10px;
+   
+     box-shadow: 9px 16px 20px 2px  rgba(0,0,0,0.2);
+   
+}
